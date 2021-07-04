@@ -136,7 +136,7 @@ Once you have installed all the dependencies using the above command. Follow the
 
 ## Bug / Feature Request
 
-If you find some bug/defect or if you'd like to request a new function, feel free to do so by opening an issue [here]https://github.com/RajeshKGangwar/VehicleClassifierApp/issues/new).
+If you find some bug/defect or if you'd like to request a new function, feel free to do so by opening an issue ![here](https://github.com/RajeshKGangwar/VehicleClassifierApp/issues/new).
 
 ## Technologies Used
 
