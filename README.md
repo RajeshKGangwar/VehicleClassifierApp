@@ -61,18 +61,13 @@ Find the Google colab link for performing model training.
 
 __Train Vs Test Loss__
 
-```bash
 ![loss metric](https://user-images.githubusercontent.com/63975688/124378785-ee0bef80-dcd0-11eb-8eb2-98dbf4557e9e.PNG)
 
-```
 
 __Train Vs Test Accuracy__
 
-```bash
 ![Accuracy metric](https://user-images.githubusercontent.com/63975688/124378781-e8aea500-dcd0-11eb-9480-8868f57a9261.PNG)
 
-
-```
 
 
 
