@@ -58,6 +58,7 @@ Find below the Google colab link for performing model training.
 
 1. __How To Train__: Refer the provided Google colab shared file here ( [Model Training Colab File](https://colab.research.google.com/drive/1etWCOXAN__oe-YDwzm1ZinCymCMx4y8b?usp=sharing)). With respect to the dependencies for model training, please prefer using Tensorflow v2.2 for better compatiblity. All the steps regards the "How to Train" our resnet50 model are mentioned inside the Google Colab ModelTraining file itself.
 
+
 ```bash
 Some observations during the model training, Parameter versus the description is mentioned in below
 tabular form.
@@ -80,7 +81,6 @@ tabular form.
 
 
 2. __Graphical Intuition__: 
-
 
 __Train Vs Test Loss__
 
