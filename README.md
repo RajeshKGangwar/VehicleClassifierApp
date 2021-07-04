@@ -97,12 +97,14 @@ The VechicleClassifierApp is coded in python version 3.6, with other libraries a
 
 ## * Inference
 ```bash
-* All the images from the pdf documents are extracted and are placed to the respective class folders to which it belong to. for eg. sedan class name folder is created and all images comprises to sedan cars are placed inside that folder.
+* All the images from the pdf documents are extracted and are placed to the respective class folders to which it belong to.
+  for eg. sedan class name folder is created and all images comprises to sedan cars are placed inside that folder.
 * splitting of dataset into two parts, Training and Validation.
 * Pre-Trained weights of resnet50 model are taken as model training on top of Vehicle dataset we extracted from pdf files.
 * Once the complete dataset is trained on Google Colab, model is saved as .h5 extension to the local.
 * During the image prediction, Image file is uploaded and read using cv2 and data preprocessing is done before predicting.
-* Softmax function converts the image into some probability value between 0 to 1. where the max probability represents higher chances of value being TRUE.
+* Softmax function converts the image into some probability value between 0 to 1. where the max probability represents higher
+  chances of value being TRUE.
 * As we have taken 5 classes over here, so softmax returns a vector of 5 different probablity values.
 * Using Argmax(), out of all values maximum probability is fetched.
 * To the class this maximum probabilty belong to, predictor valids True for that class.
@@ -140,5 +142,8 @@ If you find some bug/defect or if you'd like to request a new function, feel fre
 
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
 
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank"></a> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-ar21.svg" alt="open-cv" width="150" height="150"/> <img src="https://www.vectorlogo.zone/logos/numpy/numpy-ar21.svg" alt="numpy" width="150" height="150"/>
+<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank"></a> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-ar21.svg" alt="open-cv" width="150" height="150"/>
+  <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg" alt="open-cv" width="150" height="150"/>
+  <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg" alt="open-cv" width="150" height="150"/>
+  <img src="https://www.vectorlogo.zone/logos/python/python-ar21.svg" alt="open-cv" width="150" height="150"/> <img src="https://www.vectorlogo.zone/logos/numpy/numpy-ar21.svg" alt="numpy" width="150" height="150"/>
 
