@@ -56,6 +56,26 @@ Refer the below file for the keras Data Augmentation code which is used for our 
 Once pure data is collected by doing various feature engineering techniques. we have to feed this data to ML Model which is resnet50 in this case.
 Find the Google colab link for performing model training.
 
+| Approach | Description |
+| --- | --- |
+| `Tensorflow` | version 2.2 |
+| `Pre-Trained model` |  **Resnet50** |
+| `Data Augmentor` | Keras |
+| `Image Size`     | 224, 224 |
+| `Batch Size` | 32 |
+| `Loss Function` |  Categorical_cross_entropy |
+| `Optimizer` | Adam |
+| `Epochs` |  **200** |
+| `Loss` | **0.1058** |
+| `Accuracy` | **0.9577** |
+| `Val Loss` | **0.8386** |
+| `Val Accuracy` | **0.8390** |
+
+
+
+
+
+
 1. __How To Train__: Follow the provided Google colab shared file here ( [Model Training Colab File](https://colab.research.google.com/drive/1B--xkd6duEJaql7ZUzlvUqwXV-4VGJaE?usp=sharing)). Don't need to install any dependencies since colab has all of them preinstalled what we are using.
 2. __Observations__:
 
