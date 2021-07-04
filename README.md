@@ -95,12 +95,30 @@ __Train Vs Test Accuracy__
 ## Complete Setup
 The VechicleClassifierApp is coded in python version 3.6, with other libraries as Tensorflow, Keras, opencv-python, numpy etc. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). Upgrade using pip package if you are using any lower version. 
 
+## * Inference
+```bash
+* All the images from the pdf documents are extracted and are placed to the respective class folders to which it belong to. for eg. sedan class name folder is created and all images comprises to sedan cars are placed inside that folder.
+* splitting of dataset into two parts, Training and Validation.
+* Pre-Trained weights of resnet50 model are taken as model training on top of Vehicle dataset we extracted from pdf files.
+* Once the complete dataset is trained on Google Colab, model is saved as .h5 extension to the local.
+* During the image prediction, Image file is uploaded and read using cv2 and data preprocessing is done before predicting.
+* Softmax function converts the image into some probability value between 0 to 1. where the max probability represents higher chances of value being TRUE.
+* As we have taken 5 classes over here, so softmax returns a vector of 5 different probablity values.
+* Using Argmax(), out of all values maximum probability is fetched.
+* To the class this maximum probabilty belong to, predictor valids True for that class.
+* Hence, This prediction is reflected to the Web UI.
+```
+
+
+
 1. __Dependency__:
 
 The dependencies are mentioned in the requirements.txt file. Go with the below mentioned command for installing them in one go.
 ```bash
 pip install -r requirements.txt
 ```
+
+
 
 2. __How To Run__:
 Once you have installed all the dependencies using the above command. Follow the below steps:
