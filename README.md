@@ -79,7 +79,7 @@ tabular form.
 | `Val Accuracy` | **0.8390** |
 
 
-3. __Graphical Intuition__: 
+2. __Graphical Intuition__: 
 
 
 __Train Vs Test Loss__
