@@ -39,7 +39,7 @@ Resnet50 classification model is used for the problem statement.
 
 ## DEMO
 
-![GIF](Demo.gif)
+![GIF](AppDemo.gif)
 
 
 ## Data Gathering/Preprocessing
