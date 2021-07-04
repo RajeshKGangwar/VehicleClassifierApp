@@ -24,7 +24,7 @@ Table of contents
 
 
 ## Problem Statement
-Dataset in .pdf file format extension is given which consists of images different vehicles. Using this dataset you need to prepare an Machine learning model which classifies vehicles in categories based on its body types i.e size such as Sedan, Hatchback, SUV, Sub-SUV, MUV etc.
+Raw Dataset in .pdf file format extension is given which consists of images of different vehicles. Using this dataset you need to prepare an Machine learning model which classifies vehicles in categories based on its body types i.e size such as Sedan, Hatchback, SUV, MUV etc. 
 
 
 
@@ -33,8 +33,8 @@ Dataset in .pdf file format extension is given which consists of images differen
 Intelligent vehicle detection and classification are becoming increasingly important in the field of highway management.
 However due to the different sizes of vehicles, their detection remains a challenge that directly affects the accuracy 
 of vehicle classification. The proposed solution encounters the problem statement and classifies the vehicle on basis of
-its body type. Transfer learning approach with pretrained weights of Resnet50 classification model is used for the problem statement.
-
+its body type. Transfer learning approach with pretrained weights of Resnet50 classification model is used for the problem
+statement.
 ```
 
 ## DEMO
@@ -54,7 +54,21 @@ Refer the below file for the keras Data Augmentation code which is used for our 
 
 ## Model Training
 Once pure data is collected by doing various feature engineering techniques. we have to feed this data to ML Model which is resnet50 in this case.
-Find the Google colab link for performing model training.
+Find below the Google colab link for performing model training.
+
+1. __How To Train__: Refer the provided Google colab shared file here ( [Model Training Colab File](https://colab.research.google.com/drive/1B--xkd6duEJaql7ZUzlvUqwXV-4VGJaE?usp=sharing)). With respect to the dependencies for model training, please prefer using Tensorflow v2.2 for better compatiblity.
+Markup : - Bullet list
+
+
+
+
+
+
+
+
+
+3. __Observations__: 
+
 
 | Approach | Description |
 | --- | --- |
@@ -71,13 +85,6 @@ Find the Google colab link for performing model training.
 | `Val Loss` | **0.8386** |
 | `Val Accuracy` | **0.8390** |
 
-
-
-
-
-
-1. __How To Train__: Follow the provided Google colab shared file here ( [Model Training Colab File](https://colab.research.google.com/drive/1B--xkd6duEJaql7ZUzlvUqwXV-4VGJaE?usp=sharing)). Don't need to install any dependencies since colab has all of them preinstalled what we are using.
-2. __Observations__:
 
 __Train Vs Test Loss__
 
