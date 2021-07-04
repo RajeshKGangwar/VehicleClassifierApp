@@ -56,19 +56,11 @@ Refer the below file for the keras Data Augmentation code which is used for our 
 Once pure data is collected by doing various feature engineering techniques. we have to feed this data to ML Model which is resnet50 in this case.
 Find below the Google colab link for performing model training.
 
-1. __How To Train__: Refer the provided Google colab shared file here ( [Model Training Colab File](https://colab.research.google.com/drive/1B--xkd6duEJaql7ZUzlvUqwXV-4VGJaE?usp=sharing)). With respect to the dependencies for model training, please prefer using Tensorflow v2.2 for better compatiblity.
-Markup : - Bullet list
+1. __How To Train__: Refer the provided Google colab shared file here ( [Model Training Colab File](https://colab.research.google.com/drive/1B--xkd6duEJaql7ZUzlvUqwXV-4VGJaE?usp=sharing)). With respect to the dependencies for model training, please prefer using Tensorflow v2.2 for better compatiblity. All the steps regards the "How to Train" our resnet50 model are mentioned inside the Google Colab ModelTraining file itself.
 
-
-
-
-
-
-
-
-
-3. __Observations__: 
-
+```bash
+Some observations during the model training, Approach versus the description is mentioned in below tabular form.
+```
 
 | Approach | Description |
 | --- | --- |
@@ -86,6 +78,9 @@ Markup : - Bullet list
 | `Val Accuracy` | **0.8390** |
 
 
+3. __Graphical Intuition__: 
+
+
 __Train Vs Test Loss__
 
 ![loss metric](https://user-images.githubusercontent.com/63975688/124378785-ee0bef80-dcd0-11eb-8eb2-98dbf4557e9e.PNG)
@@ -97,9 +92,8 @@ __Train Vs Test Accuracy__
 
 
 
-
 ## Complete Setup
-The VechicleClassifier App is coded in python version 3.6, with other libraries as Tensorflow, Keras, opencv-python, numpy etc. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). Upgrade using pip package if you are using any lower version. 
+The VechicleClassifierApp is coded in python version 3.6, with other libraries as Tensorflow, Keras, opencv-python, numpy etc. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). Upgrade using pip package if you are using any lower version. 
 
 1. __Dependency__:
 
@@ -111,8 +105,14 @@ pip install -r requirements.txt
 2. __How To Run__:
 Once you have installed all the dependencies using the above command. Follow the below steps:
 
-
-
+* Flask Api is used for end to end VehicleClassifierApp development.
+* Clone the VehicleClassifierApp repo, Unzip it and open in any IDE (Pycharm is recommended).
+* Create a virtual environment for python v3.6.
+* Install all requirements by using above mentioned command.
+* After installing all the dependencies, run main.py file.
+* main.py file will open a default page on local server.
+* Upload the file (Image) belonging to the class (Hatchback, SUV, MUV, Sedan, Other) and click on predict.
+* Prediction successfull.
 
 ## Bug / Feature Request
 
